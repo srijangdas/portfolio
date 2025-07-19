@@ -15,6 +15,7 @@
 
     /* Linting */
     "strict": true,
+    "no-unused-vars": "off",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,

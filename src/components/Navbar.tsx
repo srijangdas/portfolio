@@ -3,8 +3,7 @@ import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [isDark, setIsDark] = useState(() => {
+  const [isDark, _setIsDark] = useState(() => {
     return (
       localStorage.theme === "dark" ||
       (!("theme" in localStorage) &&
