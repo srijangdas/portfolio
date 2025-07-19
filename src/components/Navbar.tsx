@@ -3,7 +3,7 @@ import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isDark, _setIsDark] = useState(() => {
+  const [isDark] = useState(() => {
     return (
       localStorage.theme === "dark" ||
       (!("theme" in localStorage) &&
