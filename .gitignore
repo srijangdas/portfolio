@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+
+# Vite build output
+dist/
+*.local
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# macOS system files
+.DS_Store
+
+# VS Code config
+.vscode/
+
+# Log files
+*.log
+
+# Optional: IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Parcel/Vite cache
+.cache/
+.vite/
+
+# Tailwind's generated CSS (if you output it manually)
+tailwind.output.css
+
+# Coverage
+coverage/
+
+# Optional: local backups or temporary files
+*.bak
+*.tmp
+
+# Custom crosshair animations or assets (if generated dynamically)
+public/assets/temp/
+
+# Storybook (if you add later)
+.storybook-out/
