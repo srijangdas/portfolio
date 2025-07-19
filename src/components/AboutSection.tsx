@@ -32,7 +32,7 @@ const AboutSection = () => {
             </p>
             <p className="flex items-center gap-2">
               <CalendarDaysIcon className="w-5 h-5 text-red-500" />
-              21 Years Old
+              22 Years Old
             </p>
             <p className="flex items-center gap-2">
               <CodeBracketIcon className="w-5 h-5 text-red-500" />
