@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import CrosshairCursor from "./components/CrosshairCursor";
 import AboutSection from "./components/AboutSection";
 import ScrollProgress from "./components/ScrollProgress";
+// @ts-expect-error stuff
 import AOS from "aos";
 import "aos/dist/aos.css";
 
