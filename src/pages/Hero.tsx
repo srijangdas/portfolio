@@ -49,7 +49,10 @@ const HeroSection = () => {
           />
         </h2>
 
+        <div className="p-2"></div>
         <AnimatedButton href="#projects">View My Work</AnimatedButton>
+        <div className="p-0"></div>
+        <AnimatedButton href="#contact">Contact Me</AnimatedButton>
 
         <ScrollIndicator />
       </div>
