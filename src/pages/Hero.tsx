@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import MarqueeBackground from "./MarqueeBackground";
-import AnimatedButton from "./AnimatedButton";
-import ScrollIndicator from "./ScrollIndicator";
+import MarqueeBackground from "../components/MarqueeBackground";
+import AnimatedButton from "../components/AnimatedButton";
+import ScrollIndicator from "../components/ScrollIndicator";
 
 const HeroSection = () => {
   return (
